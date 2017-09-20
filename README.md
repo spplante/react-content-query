@@ -1,6 +1,5 @@
 The sources of this project have been moved to the official [SPFX Samples](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples) at the following url : [https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-content-query-webpart](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-content-query-webpart)
 
-<br /><br />
 
 # React Content Query WebPart
 
@@ -42,7 +41,6 @@ Version|Date|Comments
 ### Cross site collection
 
 The WebPart uses the search in order to get all sites under the current domain, which makes it possible to query not only subsites but other site collections and their subsites as well.
-
 <img src="Misc/allsites_v2.gif" />
 <br>
 
@@ -297,7 +295,6 @@ This package produces the following:
 * lib/* - intermediate-stage commonjs build artifacts
 * dist/* - the bundled script, along with other resources
 * deploy/* - all resources which should be uploaded to a CDN.
-
 
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-fx-webparts/samples/react-content-query-webpart" />
