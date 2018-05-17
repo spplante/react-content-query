@@ -1,3 +1,25 @@
+```Handlebars
+<div class="entry">
+    <h1>{{title}}</h1>
+    <p>{{body}}</p>
+</div>
+```
+
+```javascript
+var context = {title: "My entry", body: "This is my entry!"};
+var html = template(context);
+```
+
+```Handlebars
+<div class="entry">
+    <h1>My entry</h1>
+    <p>This is my entry!</p>
+</div>
+```
+
+
+
+
 The sources of this project have been moved to the official [SPFX Samples](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples) at the following url : [https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-content-query-webpart](https://github.com/SharePoint/sp-dev-fx-webparts/tree/master/samples/react-content-query-webpart)
 
 
